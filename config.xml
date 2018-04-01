@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
-<widget id="com.pixelgang.yallseeit" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android = "http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.pixelgang.yallseeit" version="1.1" xmlns="http://www.w3.org/ns/widgets" xmlns:android = "http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
 	<name>Yall See It</name>
 	<description>Yall see it is a game made for Country Cooking</description>
 	<author href="http://www.pixelgangstudios.com" email="support@pixelgangstudios.com">Pixel Gang Studios</author>
@@ -24,6 +24,7 @@
 
 	<plugin name="cordova-custom-config" />
 	<plugin name="cordova-plugin-ad-admob" />
+	<plugin name="cordova-plugin-inappbrowser" />
 	<plugin name="cordova-plugin-statusbar" />
 	<plugin name="cordova-plugin-whitelist" />
 
