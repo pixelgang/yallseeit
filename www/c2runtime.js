@@ -25657,16 +25657,16 @@ cr.behaviors.Sin = function(runtime)
 }());
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.NinePatch,
-	cr.plugins_.admob,
 	cr.plugins_.Arr,
+	cr.plugins_.admob,
 	cr.plugins_.Audio,
 	cr.plugins_.Browser,
 	cr.plugins_.Function,
 	cr.plugins_.LocalStorage,
 	cr.plugins_.Mouse,
+	cr.plugins_.Spritefont2,
 	cr.plugins_.Sprite,
 	cr.plugins_.TiledBg,
-	cr.plugins_.Spritefont2,
 	cr.plugins_.Touch,
 	cr.behaviors.Sin,
 	cr.behaviors.Pin,
