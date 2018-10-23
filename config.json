@@ -1,6 +1,6 @@
 ﻿{
 	"id": "com.pixelgang.yallseeit",
-	"version": "1.0",
+	"version": "2.0",
 	"name": "Yall See It",
 	"description": "Yall see it is a game made for Country Cooking",
 	"author": "Pixel Gang Studios",
@@ -23,9 +23,11 @@
 	"plugins": [
 		{ "id": "cordova-custom-config", "version": null },
 		{ "id": "cordova-plugin-ad-admob", "version": null },
+		{ "id": "cordova-plugin-file", "version": null },
 		{ "id": "cordova-plugin-inappbrowser", "version": null },
 		{ "id": "cordova-plugin-statusbar", "version": null },
-		{ "id": "cordova-plugin-whitelist", "version": null }
+		{ "id": "cordova-plugin-whitelist", "version": null },
+		{ "id": "cordova-plugin-wkwebview-engine", "version": null }
 	],
 	"android": {
 		"min": 21,
@@ -33,7 +35,7 @@
 		"plugins": []
 	},
 	"ios": {
-		"target": "8.0",
+		"target": "10.0",
 		"plugins": []
 	}
 }
